@@ -1,0 +1,12 @@
+[project]
+name = "orgweavev2"
+version = "1.0"
+description = "分析推荐关系"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "tqdm>=4.67.1",
+]
