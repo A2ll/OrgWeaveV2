@@ -10,3 +10,7 @@ dependencies = [
     "pandas>=2.2.3",
     "tqdm>=4.67.1",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"]}}
